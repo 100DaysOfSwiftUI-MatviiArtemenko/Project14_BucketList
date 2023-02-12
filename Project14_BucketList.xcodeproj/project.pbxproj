@@ -11,6 +11,12 @@
 		84AFFC0328CCCC59001AA8AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC0228CCCC59001AA8AB /* ContentView.swift */; };
 		84AFFC0528CCCC5D001AA8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFFC0428CCCC5D001AA8AB /* Assets.xcassets */; };
 		84AFFC0828CCCC5D001AA8AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFFC0728CCCC5D001AA8AB /* Preview Assets.xcassets */; };
+		84AFFC0F28CCD0EA001AA8AB /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC0E28CCD0EA001AA8AB /* FileManager-DocumentsDirectory.swift */; };
+		84AFFC1128CE0EC4001AA8AB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC1028CE0EC4001AA8AB /* Location.swift */; };
+		84AFFC1328CE1936001AA8AB /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC1228CE1936001AA8AB /* EditView.swift */; };
+		84AFFC1528CE215F001AA8AB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC1428CE215F001AA8AB /* Result.swift */; };
+		84AFFC1728CE2CFE001AA8AB /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC1628CE2CFE001AA8AB /* ContentView-ViewModel.swift */; };
+		84AFFC1928CE3C8C001AA8AB /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFFC1828CE3C8C001AA8AB /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		84AFFC0228CCCC59001AA8AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84AFFC0428CCCC5D001AA8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AFFC0728CCCC5D001AA8AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84AFFC0E28CCD0EA001AA8AB /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		84AFFC1028CE0EC4001AA8AB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		84AFFC1228CE1936001AA8AB /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		84AFFC1428CE215F001AA8AB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		84AFFC1628CE2CFE001AA8AB /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		84AFFC1828CE3C8C001AA8AB /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				84AFFC0028CCCC59001AA8AB /* Project14_BucketListApp.swift */,
 				84AFFC0228CCCC59001AA8AB /* ContentView.swift */,
+				84AFFC1628CE2CFE001AA8AB /* ContentView-ViewModel.swift */,
+				84AFFC1228CE1936001AA8AB /* EditView.swift */,
+				84AFFC1828CE3C8C001AA8AB /* EditView-ViewModel.swift */,
+				84AFFC1028CE0EC4001AA8AB /* Location.swift */,
+				84AFFC1428CE215F001AA8AB /* Result.swift */,
+				84AFFC0E28CCD0EA001AA8AB /* FileManager-DocumentsDirectory.swift */,
 				84AFFC0428CCCC5D001AA8AB /* Assets.xcassets */,
 				84AFFC0628CCCC5D001AA8AB /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AFFC1528CE215F001AA8AB /* Result.swift in Sources */,
 				84AFFC0328CCCC59001AA8AB /* ContentView.swift in Sources */,
+				84AFFC1328CE1936001AA8AB /* EditView.swift in Sources */,
 				84AFFC0128CCCC59001AA8AB /* Project14_BucketListApp.swift in Sources */,
+				84AFFC1128CE0EC4001AA8AB /* Location.swift in Sources */,
+				84AFFC1928CE3C8C001AA8AB /* EditView-ViewModel.swift in Sources */,
+				84AFFC1728CE2CFE001AA8AB /* ContentView-ViewModel.swift in Sources */,
+				84AFFC0F28CCD0EA001AA8AB /* FileManager-DocumentsDirectory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +294,7 @@
 				DEVELOPMENT_TEAM = R7U57FJ9PH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unloc your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +324,7 @@
 				DEVELOPMENT_TEAM = R7U57FJ9PH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unloc your places.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
