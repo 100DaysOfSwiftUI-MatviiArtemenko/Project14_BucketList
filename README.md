@@ -39,10 +39,6 @@ MapKit, Comparable
   width = 250
     src="2.png"
   >
-  <img 
-  width = 250
-    src="3.png"
-  >
 </p>
 
 ---
